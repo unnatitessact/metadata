@@ -1,0 +1,141 @@
+ -----------------------------  Title Tab ----------------------------------
+Movie Title* (Text) --- Fi, Fo --- Movies
+AKA Titles (Text) --- Fi, fo, series, episode,  --- Movies, Songs, Promos, Commercial, Series, events
+Year (Year) --- fo, season, episode --- movies, songs, series
+Movie Id (Alpha numeric) --- fo --- movie
+Channel Group (Dropdown) --- fo, fi, season --- movie, songs, promos, Commercial, series, events
+Production House (Drop down) [Balaji, KK films, AK production, SKF, FOX] --- fo --- movies, songs
+Keywords (Text) --- fo, fi, episode, version --- Movies, songs, promos, Commercial, series, events
+Version Title* --- fi --- Movies, songs, promos, Commercial
+Version Code --- fi --- movies
+TX Order --- Fi, episode, version, --- movies, series
+Song Title* --- fo, fi --- songs
+Song ID --- fo --- songs
+Album Name --- fo --- songs
+duration --- fo --- songs, 
+
+Promotion Title --- fo, fi --- promos
+Certification --- fo --- promos
+Producer --- fo --- promos
+Unpackaged Master --- fo ---promos
+Timecode In --- fo --- promos
+Notes --- fo --- promos
+Genre --- fo --- promos
+Seq --- fo --promos
+Dublist Export Date --- fi --- promos, Commercial
+Event Type --- fi --- promos
+Production Number --- fo, fi, season episode --- promos, Commercial, series
+House Number --- fi, fo --- promos, Commercial
+Commercial Title --- fi, fo --- Commercial
+Product Code --- fo, fi --- Commercial
+
+Programme Title --- fo, episode, season, version --- series
+Season Count --- fo --- series
+season No --- season --- series
+Programme Id --- season --- series
+Programme Group --- season --- series
+Series No. --- season, version --- series
+Episode No. --- episode, version --- series
+Episode Title* --- episode, version --- series
+Compilation --- episode --- series
+Version Code --- version --- series
+Date --- fo, fi --- sports
+Even ID --- fo, fi ---- sports
+Locations ---  fo, fi --- sports
+
+
+----------------------------- GENERAL TAB ----------------------------
+
+Status (toggle) [Active, Inactive] --- fo, fi, season, episode, version --- movies, songs, series, sports
+Type (Dropdown) [Movie, Series, Promo, Song, Sport, News] --- fo, season, episode --- movies, songs, series, sports
+Production (Drop down) [Balaji, KK films, AK production, SKF, FOX] --- fo, season, episode --- movies, songs, series
+Certification (dropdown) [U, U/A, A] --- fo, fi, season, episode, version  --- movies, songs, promos, commercial, season, sports
+Maker (Text) --- fo, season --- movies, songs, series
+Classification (Checkbox) --- fo, fi, season, episode, version --- movies, songs, series, sports
+Languages (Checkbox multi select) [English, Spanish,  Hindi, Tamil, Marathi] --- fo, fi, season,episode, version  --- movies, songs, series, sports
+Slot Duration (time) --- fo, fi, season, episode, version --- movies, songs, promos, series, sports
+Orig. Duration (time) --- fo, season, episode --- movies, songs, series, sports
+TX Run Time (time) --- fo, fi, season, episode, version --- movies, songs, series, sports
+Content (Text) --- fo, season --- movies, season
+External Ref. No.(Alpha numeric) --- fo, season --- movies, songs, series,sports
+Prod. Year (year) --- fo, season --- movies, songs, series
+Barcode  --- fo, fi, season, episode, version --- movies, songs, series, sports
+TX ID (Alpha numeric --- fo, fi, season, episode, version --- movies, songs, series, sports
+Work List Status ( drop down) [Not started, Completed, In progress] --- fi, episode, version --- movies, songs, series, sports
+External Reference (Alpha numeric) --- fi, version --- movies, songs, series, sports
+Aspect Ratio (dropdown) [4:3, 16:9, 1:85:1] --- fi , episode, version --- movies, songs, series, sports
+TX Parts --- fi, episode, version --- movies, songs, series, sports
+TX Approved Timings (time) --- fi, version --- movies, songs, series, sports
+Description (long text) --- fi, version --- movies, songs, series, sports
+Priority ---  fi --- promos
+Created for Month ---  fi --- promos
+Created for Year ---  fi --- promos
+Producer  --- fi --- promos
+Notes ---  fi --- promos
+Duration  --- fi --- commercial
+Estimated First Air Date   --- fi --- commercial
+Expiry Date   --- fi --- commercial
+No. of Episodes --- season --- series
+Genre (dropdown) --- season, episode --- series
+Seq --- season, episode --- series
+TX Order (numeric) --- season --- series
+Production Number (Alpha mumeric) --- season --- series
+Content Reference --- episode --- series
+Quality --- episode --- series
+Default version --- episode --- series
+Total Versions --- episode --- series
+Versions --- episode --- series
+Compliance Channels --- episode --- series
+Material Type --- episode --- series
+Lock Segments Within The Same Part --- version --- series
+Part --- version --- series
+
+
+------------------------ Technical Metadata -------------------------------
+
+Material Identifier  (Alpha numeric) --- fi --- movies, sports, promos, commercial
+Compliance Status (With View Compliance Report Option) (dropdown) [Rejected, In progress, Approved] --- fi --- movies, sports, promos, commercial
+Material Ref Id (Alpha numeric) --- fi --- movies, sports, promos, commercial
+Wrapper (Drop down) [ Mp4, mxf] --- fi --- movies, sports, promos, commercial
+Material Dur (time) --- fi --- movies, sports, promos, commercial
+Codec (Dropdown) [H.264, MPEG-4 AVC] --- fi --- movies, sports, promos, commercial
+Aspect Ratio (dropdown) [4:3, 16:9, 1:85:1] --- fi --- movies, promos, commercial
+Bitrate  (numeric) --- fi --- movies, sports, promos, commercial
+Bitrate Mode (dropdown) --- fi --- movies, sports, promos, commercial
+Frame Rate (numeric) --- fi --- movies, sports, promos, commercial
+Display Resolution  (dropdown) [120p, 240p, 480p, 720p, HD, HDD] --- fi --- movies, sports, promos, commercial
+Format -- Y(Preview Window) --- fi --- promos, commercial, 
+
+
+----------------------- Synopsis Tab ---------------------------------------
+Long Synopsis (long text) --- fo, season --- movies, series, sports
+Short Synopsis (short text) --- fo, season --- movies, series, sports
+
+
+------------------------ Audio Tab -------------------------------------------
+Track (1, 2, 3 …) (text)-- Y --- fi, version --- movies, commercial, sports, promos, series
+Name -- example: Hindi, english etc (text) --- fi, version --- movies, commercial, sports, promos, series
+Available (dropdown) [yes, no] -- Y --- fi, version --- movies, commercial, sports, promos, series
+
+
+--------------------------- Subtitles/CC Tab -----------------------
+Serial No. -- Y --- fi, version --- movies, promos, commercial, series
+Language -- Y  --- fi, version --- movies, promos, commercial, series
+Available (Yes/No) -- Y  --- fi, version --- movies, promos, commercial, series
+
+
+-------------------------- End Credits Tab ----------------------------------
+Start time --- fi, version --- movies, sports, series
+End time --- fi, version --- movies, sports, series
+Voice in EC (yes/no) --- fi, version --- movies, sports, series
+
+------------------------- Comments Tab -------------------------------------
+Comments --- fi --- commercial
+
+
+------------------------------ Cast and Credits -----------------------------
+Rank,  ---- fo, episode,season ---  songs
+Primary ---- fo --- sports, movies 
+Artist (Text) ---- fo, episode, season --- sports, movies, songs
+Role (Text) ---- fo, episode, season --- sports, movies, songs
+Part Desc (Text) ---- fo, episode, season --- sports, movies, songs

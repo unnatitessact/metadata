@@ -1,0 +1,5 @@
+Rank (text)  ---- fo,  ---  songs
+Primary (text) ---- fo --- sports, movies 
+Artist (Text) ---- fo,  --- sports, movies, songs
+Role (Text) ---- fo,  --- sports, movies, songs
+Part Desc (Text) ---- fo,  --- sports, movies, songs
